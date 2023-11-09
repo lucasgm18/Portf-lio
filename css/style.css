@@ -259,3 +259,22 @@ span {
     border-left: .2rem solid var(--main-color);
     border-right: .2rem solid var(--main-color);
 }
+
+
+.about-content {
+    text-align: center;
+}
+
+
+.about-content h3 {
+    font-size: 2.6rem;
+}
+
+.btn-box.btns {
+    display: inline-block;
+    width: 15rem;
+}
+
+.btn-box.btns a::before {
+    background: var(--second-bg-color);
+}
