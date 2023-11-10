@@ -17,6 +17,7 @@
     --text-color: #ededed;
     --main-color:
     #c9b49f;
+    --third-bg-color: #4e3c31;
 }
 
 html {
@@ -286,6 +287,8 @@ span {
     flex-direction: column;
     min-height: auto;
     padding-bottom: 5rem;
+    
+   
 }
 
 .education .education-row {
@@ -304,7 +307,7 @@ span {
 }
 
 .education-column .education-box {
-    border-left: .2rem solid var(--bg-color);
+    border-left: .2rem solid var(--second-bg-color);
 }
 
 .education-box .education-content {
@@ -326,7 +329,7 @@ span {
 .education-content .content {
     position: relative;
     padding: 1.5rem;
-    border: .2rem solid var(--bg-color);
+    border: .2rem solid var(--main-color);
     border-radius: .6rem;
     margin-bottom: 2rem;
     overflow: hidden;
@@ -339,18 +342,19 @@ span {
     left: 0;
     width: 0;
     height: 100%;
+    background: var(--main-color);
     z-index: -1;
     transition: .5s;
 }
 
-.education-content .contenth:hover::before { 
+.education-content .content:hover::before { 
    width: 100%;
 
 }
 
 .education-content .content .year {
     font-size: 1.5rem;
-    color: var(--bg-color);
+    color: var(--second-bg-color);
     padding-bottom: .5rem;
 }
 
@@ -360,7 +364,10 @@ span {
 
 .education-content .content h3 {
     font-size: 2rem;
-
 }
 
+.education-content .content p {
+    font-size: 1.6rem;
+    padding-top: .5rem;
+}
   
