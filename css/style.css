@@ -549,7 +549,7 @@ gap: 5rem;
     background: var(--second-bg-color);
     border-radius: .6rem;
     z-index: -1;
-    transition: .5s;
+    transition: .3s;
 }
 
 .contact form .input-box .input-field input:focus~.focus,
