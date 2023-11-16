@@ -19,6 +19,7 @@
     #c9b49f;
     --third-bg-color: #4e3c31;
     --new-color: #5C4033;
+    --header-color: #785B4B;
 }
 
 html {
@@ -42,6 +43,11 @@ body {
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+    transition: .3s;
+}
+
+.header.sticky {
+    background: var(--header-color);
 }
 
 .logo {
@@ -637,6 +643,7 @@ gap: 5rem;
     color: var(--main-color);
 }
 
+/* BREAKPOINTS */
 
 
   
