@@ -686,11 +686,11 @@ gap: 5rem;
         left: -100%;
         width: 100%;
         padding: 1rem 4%;
-        background: var(--main-color);
+        background: var(--second-bg-color);
         box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
         z-index: 1;
         transition: .25s ease;
-        transition-delay: .25s;
+        transition-delay: .10s;
     }
 
     .navbar.active {
