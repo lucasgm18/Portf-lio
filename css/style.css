@@ -86,9 +86,9 @@ section {
     display: flex;
     align-items: center;
     padding: 0 9%;
-    background: url('/Portf-lio/images/Home.svg') no-repeat;
-    background-size: cover;
+    background: url('/images/Home.svg') no-repeat;
     background-position: center;
+    background-size: cover;
 }
 
 .home-content {
